@@ -22,7 +22,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'webrick'
 
 group :development, :test do
-gem 'sqlite3'
+gem 'sqlite3', '<1.4'
 end
 
 group :production do
