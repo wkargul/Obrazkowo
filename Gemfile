@@ -21,3 +21,12 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'webrick'
 
+group :development, :test do
+gem 'sqlite3'
+end
+
+group :production do
+gem 'pg', '0.18.2'
+gem 'rails_12factor', '0.0.3'
+end
+
